@@ -1,5 +1,6 @@
 import { Header } from "@/components/sections/header"
 import { Hero } from "@/components/sections/hero"
+import { ServicesMarquee } from "@/components/sections/services-marquee"
 import { Emotional } from "@/components/sections/emotional"
 import { Services } from "@/components/sections/services"
 import { Complementary } from "@/components/sections/complementary"
@@ -16,6 +17,7 @@ export default function Home() {
     <main className="min-h-screen">
       <Header />
       <Hero />
+      <ServicesMarquee />
       <Emotional />
       <Services />
       <Complementary />
